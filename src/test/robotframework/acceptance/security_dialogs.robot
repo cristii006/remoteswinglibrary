@@ -2,7 +2,7 @@
 Library    RemoteSwingLibrary          debug=True
 Library    OperatingSystem
 Suite setup    Set Environment Variable      CLASSPATH     target/test-classes
-Test Teardown  Remove Files  *.png
+#Test Teardown  Remove Files  *.png
 
 *** Test Cases ***
 Close Security Dialogs
